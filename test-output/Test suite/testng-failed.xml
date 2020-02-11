@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test suite]">
+  <test thread-count="5" name="myTest(failed)">
+    <classes>
+      <class name="org.selenium.ng.GoogleTitleTest">
+        <methods>
+          <include name="check"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.selenium.ng.GoogleTitleTest -->
+    </classes>
+  </test> <!-- myTest(failed) -->
+</suite> <!-- Failed suite [Test suite] -->

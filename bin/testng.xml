@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Facebook login">
+<test name="Facebook test">
+
+<parameter name="url" value="https://www.facebook.com/"/>
+<parameter name="loginid" value="debarunnatta1995@gmail.com"/>
+<parameter name="password" value="Rocky12345"/>
+
+<classes>
+
+<class name="com.selenium.org.LoginTest"/>
+
+</classes>
+
+</test>
+
+
+</suite>
